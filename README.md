@@ -4,7 +4,7 @@ GENERAL NOTES:
 
 NOTE 1: Firmware originated from v6.3.1 Arduino sketch. For use with original ILI9341 320x240 TFT display.
 
-NOTE 2: Flashing ubitx is very easy - find tutorials in the net. To be on the safe side You can buy new arduino nano without gold-pins soldered and solder them on the same side as usb connector.
+NOTE 2: Flashing ubitx is very easy - find tutorials in the net. To be on the safe side You can buy new arduino nano without gold-pins soldered and solder them to have pins on the same side as usb connector.
 
 NOTE 3: Mind to rename unpacked directory eg. "ubitxv6-09_sp7etd-ubitx_v6-09_sp7etd" to the same name as *.ino file (eg. "ubitx_v6_1_code_09_sp7etd").
 
