@@ -90,7 +90,7 @@ CW Key: For straight key operation I have shorted R3 2k2 resistor (I am not usin
 
 Current values of Frequency and BFO calibration are read from EEPROM and displayed on the screen in setup menu.
 
-Mind, during start of ubitx frequency and BFO calibrated values are read from EEPROM memory (init settings).
+Mind - during start of ubitx - frequency and BFO calibrated values are read from EEPROM memory (init settings).
 If these values are way off given range (e.g. values are not calibrated or wrong calibrated) - default values are set and written to EEPROM.
 Allowed range for Frequency calibration:
 from -2000000 to 2000000 (+/- 2 millions), default offset = 0 (in my two units ubitx v6 - frequency calibration are respectively 179375 and 192500).
