@@ -49,9 +49,9 @@ void setupFreq(){
     active_delay(100);
   active_delay(100);
    
-  //prev_calibration = calibration;//10_sp7etd_10
+  //prev_calibration = calibration;//10_sp7etd
   //calibration = 0; //10_sp7etd_10
-  EEPROM.get(MASTER_CAL, calibration); //10_sp7etd_10
+  EEPROM.get(MASTER_CAL, calibration); //10_sp7etd
 //  ltoa(calibration/8750, c, 10);
 //  strcpy(b, c);
 //  strcat(b, "Hz");
