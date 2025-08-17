@@ -97,6 +97,8 @@ from -2000000 to 2000000 (+/- 2 millions), default offset = 0 (in my two units u
 Allowed range for BFO calibration:
 from 11.048.000 to 11.060.000, default value 11.056.500 (changed default from 11.053.000).
 
+To skip calibration - just turn OFF and power back ON.
+
 SHORT INSTRUCTION - HOW TO FLASH UBITX V6:
 
 Directly after downloading zip file (e.g. ubitxv6-10_sp7etd-ubitx_v6-10_sp7etd.zip) extract it and then rename extracted folder to the same as "ino" file (without ino extension).
