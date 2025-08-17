@@ -114,8 +114,11 @@ If program compiles without errors - You can Upload to Nano (Sketch -> Upload or
 Neglect any blurred screen after flash, just disconnect USB cable and power Your ubitx with 12V power (remember to use dummy load).
 Perform calibration (press encoder for ~10s until Setup menu appears).
 Any feedback welcome.
+
 PS. Instruction written in Linux Arduino IDE, but - I believe - there are not too much differences to Win version.
 
 Best regards
+
 Tomasz sp7etd
+
 PS. 10_sp7etd firmware - just quick, bench tests are done and OK. but mind no field - no on air tests performed yet.
