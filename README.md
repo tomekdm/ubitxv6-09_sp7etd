@@ -4,7 +4,7 @@ GENERAL NOTES:
 
 NOTE 1: Firmware originated from v6.3.1 Arduino sketch. For use with original ILI9341 320x240 TFT display.
 
-NOTE 2: Flashing ubitx is very easy - find tutorials in the net. To be on the safe side You can buy new arduino nano without gold-pins soldered and solder them to have pins on the same side as usb connector.
+NOTE 2: Flashing ubitx is very easy - find tutorials in the net. To be on the safe side You can buy new arduino nano without gold-pins soldered and solder them to have pins on the same side as usb connector. Short instruction at the end of this README file.
 
 NOTE 3: Mind to rename unpacked directory eg. "ubitxv6-10_sp7etd-ubitx_v6-10_sp7etd" to the same name as *.ino file (eg. "ubitx_v6_1_code_10_sp7etd").
 
@@ -97,8 +97,24 @@ from -2000000 to 2000000 (+/- 2 millions), default offset = 0 (in my two units u
 Allowed range for BFO calibration:
 from 11.048.000 to 11.060.000, default value 11.056.500 (changed default from 11.053.000).
 
-Mind: Enter Setup (calibration) menu by pressing encoder for ~10s until Setup menu appears.
+Short instruction for flashing of ubitx v6:
+Directly after downloading zip file (e.g. ubitxv6-10_sp7etd-ubitx_v6-10_sp7etd.zip) extract it and then rename extracted folder to the same as "ino" file (without ino extension).
+So Your "ubitxv6-10_sp7etd-ubitx_v6-10_sp7etd" directory rename to "ubitx_v6_1_code_10_sp7etd".
+Then after starting Your Arduino IDE environment choose file -> open -> ubitx_v6_1_code_10_sp7etd.ino file.
+All the files within directory should be opened. This is needed to proper flash Your arduino nano.
+If files will not be in directory with proper name, after opening ubitx_v6_1_code_10_sp7etd.ino file - Arduino will ask You if it can create directory with this name.
+In this case remember to move all unziped files to this directory (files will be opened by Arduino IDE).
+Then disconnect 12V from Your ubitx. Connect USB cable between computer and arduino nano board (after that my screen of ubitx goes white).
+In Arduino IDE select board (in the search box - write nano and select Arduino Nano), select Your port (my is /dev/ttyUSB0 Serial Port (USB) because its linux).
+Mind, sometimes it happens that few plugs-unplugs are needed to show Your used nano and USB port.
+When Nano board is recognized font of it in drop down list will be BOLD.
+Go to Sketch > Verify/Compile (or press "check" icon).
+If program compiles wihtout errors - You can Upload to Nano (Sketch -> Upload or "arrow to the right" icon).
+Neglect any blurred screen after flash, just disconnect USB cable and power Your ubitx with 12V power (remember to use dummy load).
+Perform calibration (press encoder for ~10s until Setup menu appears).
+Any feedback welcome.
+PS. Instruction written in Linux Arduino IDE, but - I believe - there are not too much differences to Win version.
 
 Best regards
 Tomasz sp7etd
-PS. 10_sp7etd firmware - just quick, bench tests are done (no field, no on air tests yet).
+PS. 10_sp7etd firmware - just quick, bench tests are done and OK. but mind no field - no on air tests performed yet.
