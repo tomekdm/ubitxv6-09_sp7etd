@@ -107,7 +107,7 @@ If files will not be in directory with proper name, after opening ubitx_v6_1_cod
 In this case remember to move all unziped files to this directory (files will be opened by Arduino IDE).
 Then disconnect 12V from Your ubitx. Connect USB cable between computer and arduino nano board (after that my screen of ubitx goes white).
 In Arduino IDE select board (in the search box - write nano and select Arduino Nano), select Your port (my is /dev/ttyUSB0 Serial Port (USB) because its linux).
-Mind, sometimes it happens that few plugs-unplugs are needed to show Your used nano and USB port.
+Mind, sometimes it happens that few plugs-unplugs are needed to show Your nano and USB port.
 When Nano board is recognized font of it in drop down list will be BOLD.
 Go to Sketch > Verify/Compile (or press "check" icon).
 If program compiles wihtout errors - You can Upload to Nano (Sketch -> Upload or "arrow to the right" icon).
