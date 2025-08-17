@@ -101,3 +101,4 @@ Mind: Enter Setup (calibration) menu by pressing encoder for ~10s until Setup me
 
 Best regards
 Tomasz sp7etd
+PS. 10_sp7etd firmware - just quick, bench tests are done (no field, no on air tests yet).
