@@ -110,7 +110,7 @@ In Arduino IDE select board (in the search box - write nano and select Arduino N
 Mind, sometimes it happens that few plugs-unplugs are needed to show Your nano and USB port.
 When Nano board is recognized font of it in drop down list will be BOLD.
 Go to Sketch > Verify/Compile (or press "check" icon).
-If program compiles wihtout errors - You can Upload to Nano (Sketch -> Upload or "arrow to the right" icon).
+If program compiles without errors - You can Upload to Nano (Sketch -> Upload or "arrow to the right" icon).
 Neglect any blurred screen after flash, just disconnect USB cable and power Your ubitx with 12V power (remember to use dummy load).
 Perform calibration (press encoder for ~10s until Setup menu appears).
 Any feedback welcome.
