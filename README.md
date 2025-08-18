@@ -82,8 +82,8 @@ Hardware mods:
 
 RF Gain: I have installed RF GAIN. I have decided to install 10k potentiometer in series with R12 100ohm resistor and it is working great. Schematic of this implementation can be found with 08_sp7etd release files. Actually it should be little more than 10k (maybe 15k, 20k, 22k? - because 10k is not starting from "0" audibility), but for me it is enough to eliminate distortions from very strong stations.
 
-CW Key: For straight key operation I have shorted R3 2k2 resistor (I am not using paddle, my keys have tip and ring shorted - I am using my keys with other transceivers).
-This R3 short is not needed if You are using stereo jack and key is shortening tip with sleeve (while center ring is not connected).
+CW Key: For straight key operation I have shorted R3 2k2 resistor - but mind - my key have tip and center ring shorted - I am using my key with other transceiver.
+This R3 short is not needed if You are using stereo jack and key is shortening tip with sleeve only (while center ring is not connected).
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
