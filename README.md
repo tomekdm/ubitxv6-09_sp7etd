@@ -118,6 +118,8 @@ Tomasz sp7etd
 
 PS. 11_sp7etd firmware - just quick, bench tests are done and OK. but mind no field - no on air tests performed yet.
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 SHORT INSTRUCTION - HOW TO FLASH UBITX V6:
 
 Directly after downloading zip file (e.g. ubitxv6-11_sp7etd-ubitx_v6-11_sp7etd.zip) extract it and then rename extracted folder to the same as "ino" file (without ino extension).
