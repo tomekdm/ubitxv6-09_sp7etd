@@ -70,14 +70,6 @@ a) immediate change of USB/LSB mode after SSB mode select (no need to tune).
 
 b) Some small optimization and simplification of sp7etd code. Example: use of "extern int" instead of "int export()" for some implemented earlier integers (still learning :). 
 
-
-
-Best regards.
-
-Tomasz sp7etd
-
-Post scriptum:
-
 Hardware mods:
 
 RF Gain: I have installed RF GAIN. I have decided to install 10k potentiometer in series with R12 100ohm resistor and it is working great. Schematic of this implementation can be found with 08_sp7etd release files. Actually it should be little more than 10k (maybe 15k, 20k, 22k? - because 10k is not starting from "0" audibility), but for me it is enough to eliminate distortions from very strong stations.
@@ -99,10 +91,6 @@ Allowed range for BFO calibration:
 from 11.048.000 to 11.060.000, default value 11.056.500 (changed default from 11.053.000).
 
 To skip calibration - just turn OFF and power back ON.
-
-Best regards
-
-Tomasz sp7etd
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
