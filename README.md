@@ -98,9 +98,6 @@ To skip calibration - just turn OFF and power back ON.
 
 Automatic change of modulation LSB/USB after band selection (LSB: 80m & 40m, rest - USB).
 
-Best regards
-
-Tomasz sp7etd
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -122,4 +119,8 @@ Neglect any blurred screen after flash, just disconnect USB cable and power Your
 Perform calibration (press encoder for ~10s until Setup menu appears).
 Any feedback welcome.
 
-PS. Instruction written in Linux Arduino IDE, but - I believe - there are not too much differences to Win version.
+Instruction written in Linux Arduino IDE, but - I believe - there are not too much differences to Win version.
+
+Good luck, 
+best regards
+Tomasz sp7etd
