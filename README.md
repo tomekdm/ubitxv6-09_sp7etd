@@ -104,8 +104,6 @@ Best regards
 
 Tomasz sp7etd
 
-PS. 10_sp7etd firmware - just quick, bench tests are done and OK. but mind no field - no on air tests performed yet.
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 11_sp7etd release notes (18th August 2025):
@@ -115,8 +113,6 @@ Automatic change of modulation LSB/USB after band selection (LSB: 80m & 40m, res
 Best regards
 
 Tomasz sp7etd
-
-PS. 11_sp7etd firmware - just quick, bench tests are done and OK. but mind no field - no on air tests performed yet.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
