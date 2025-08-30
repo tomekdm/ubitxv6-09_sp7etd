@@ -121,6 +121,8 @@ Any feedback welcome.
 
 Instruction written in Linux Arduino IDE, but - I believe - there are not too much differences to Win version.
 
-Good luck, 
+Good luck,
+
 best regards
+
 Tomasz sp7etd
